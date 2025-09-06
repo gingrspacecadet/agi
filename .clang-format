@@ -1,0 +1,39 @@
+IndentWidth: 4
+TabWidth: 4
+UseTab: Never
+
+BraceWrapping:
+  AfterControlStatement: false
+  AfterFunction: false
+  AfterStruct: false
+  AfterEnum: false
+  AfterClass: false
+  BeforeElse: false
+
+BreakBeforeBraces: Attach
+
+AllowShortIfStatementsOnASingleLine: false
+AllowShortFunctionsOnASingleLine: Empty
+AllowShortLoopsOnASingleLine: false
+
+ColumnLimit: 100
+ContinuationIndentWidth: 8
+
+PointerAlignment: Left
+
+SpaceBeforeParens: ControlStatements
+SpacesInParentheses: false
+SpacesInSquareBrackets: false
+SpaceInEmptyParentheses: false
+SpacesInCStyleCastParentheses: false
+SpaceAfterCStyleCast: false
+SpaceBeforeAssignmentOperators: true
+SpacesInAngles: false
+
+IndentCaseLabels: true
+IndentGotoLabels: true
+
+SortIncludes: true
+IncludeBlocks: Regroup
+
+Cpp11BracedListStyle: true
